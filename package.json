@@ -1,11 +1,11 @@
 {
-  "name": "happy-serverless",
+  "name": "inspirity",
   "version": "0.0.1",
   "description": "A serverless boilerplate with koa and PostgreSQL",
   "main": "app.js",
   "scripts": {
     "build": "babel ./src --out-dir dist",
-    "start": "cross-env database='postgres://postgres:123456@localhost:5432/happy_serverless' NODE_ENV=local nodemon src/app.js --exec babel-node --presets babel-preset-env",
+    "start": "cross-env database='postgres://postgres:123456@localhost:5432/inspirity' NODE_ENV=local nodemon src/app.js --exec babel-node --presets babel-preset-env",
     "test": "jest --watchAll",
     "cover": "npm run test -- --coverage",
     "debug": "nodemon --inspect ./src/app.js --exec babel-node --presets babel-preset-env",

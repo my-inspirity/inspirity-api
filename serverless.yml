@@ -1,6 +1,6 @@
 # serverless.yml
 
-service: happy-serverless
+service: inspirity
 
 plugins:
   - serverless-webpack

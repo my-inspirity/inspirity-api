@@ -30,7 +30,7 @@ describe('app', () => {
     let res = await request(server).get('/');
     return wrapped.run({}).then(response => {
       expect(res.status).toEqual(200);
-      expect(res.text).toContain('Welcome to happy-serverless world!');
+      expect(res.text).toContain('Welcome to inspirity world!');
     });
   });
 

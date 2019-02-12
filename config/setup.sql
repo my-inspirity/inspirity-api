@@ -1,4 +1,4 @@
-CREATE DATABASE happy_serverless
+CREATE DATABASE inspirity
     WITH 
     OWNER = postgres
     ENCODING = 'UTF8'

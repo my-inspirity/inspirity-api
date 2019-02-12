@@ -1,10 +1,14 @@
-# happy-serverless
+# inspirity
 A serverless boilerplate with koa and PostgreSQL.
 
 ## Prepare
 * Install serverless
   ```
   npm install -g serverless
+  ```
+* Restore npm packages
+  ```
+  npm install
   ```
 * Install PostgreSQL database in your local or use PostgreSQL RDS on aws
 * Run ./config/setup.sql on PostgreSQL database
